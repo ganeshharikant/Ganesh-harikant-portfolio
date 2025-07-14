@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("");
@@ -31,6 +32,8 @@ const Navbar = () => {
     { id: "skills", label: "Skills" },
     { id: "work", label: "Projects" },
     { id: "education", label: "Education" },
+   
+    {id:"certifications",label:"Certifications"}
   ];
 
   return (
