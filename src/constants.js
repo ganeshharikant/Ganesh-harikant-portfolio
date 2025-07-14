@@ -33,6 +33,10 @@ import bloglogo from './assets/work_logo/Blog.png';
 import urbanlogo from './assets/work_logo/Urban_stay.png';
 import smartlogo from './assets/work_logo/SmartIVBag.png';
 
+import cert1 from "./assets/certifications_logo/web.png";
+import cert2 from "./assets/certifications_logo/prompt.png";
+import cert3 from "./assets/certifications_logo/softwareai.png";
+import cert4 from "./assets/certifications_logo/cisco.png";
 
 
 
@@ -162,4 +166,49 @@ export const SkillsInfo = [
     github: "https://github.com/ganeshharikant/Smart-Monitoring-of-iv-Fluids",
     
   },
+];
+
+
+export const certifications = [
+  {
+    id: 1,
+    title: "The Complete Full-Stack Web Development Bootcamp",
+    issuer: "Udemy (Angela Yu)",
+    date: "March 2025",
+    description:
+      "Hands-on course covering HTML, CSS, JavaScript, Node.js, Express.js, MongoDB, REST APIs, and deployment.",
+    link: "https://www.udemy.com/certificate/UC-c7c1056d-ce7a-46d7-9127-447078ad0eef/",
+    image: cert1, // Replace with actual import like: import cert1 from '../assets/certificates/udemy_fullstack.png';
+  },
+  {
+    id: 2,
+    title: "Prompt Engineering",
+    issuer: "Infosys Springboard",
+    date: "may 2025",
+    description:
+      "Learned effective techniques to craft prompts for generative AI models and control their output.",
+    link: "https://drive.google.com/file/d/11y9TShRMX_ak1yEtttR2NiNJ6EWAWb3X/view?usp=sharing", // Replace with actual certificate link
+    image: cert2,
+  },
+  {
+    id: 3,
+    title: "Principles of Generative AI",
+    issuer: "Infosys Springboard",
+    date: "may 2025",
+    description:
+      "Explored foundational concepts of generative AI, transformer models, and responsible AI principles.",
+    link: "https://drive.google.com/file/d/1JpBQbEpGXJDttpWEL6WFQmAuCipxxCZq/view?usp=sharing", // Replace with actual certificate link
+    image: cert3,
+  },
+{
+    id: 4,
+    title: "CCNA: Cisco Certified Network Associate",
+    issuer: "Cisco",
+    date: "August 2024", // Change this to your actual date
+    description:
+      "Covered networking fundamentals, IP services, security fundamentals, automation, and programmability for modern enterprise networks.",
+    link: "https://www.credly.com/badges/1a34fb57-aa04-443f-935e-eac4e1725227", // Replace with your real badge URL
+    image: cert4,
+  },
+
 ];

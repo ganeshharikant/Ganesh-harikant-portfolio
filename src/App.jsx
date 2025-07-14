@@ -6,7 +6,7 @@ import Education from "./components/Education/Education";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import BlurBlob from './components/BlurBlob';
-
+import Certifications from "./components/Certifications/Certifications";
 const App = () => {
   return (
     <div className="bg-[#050414]">
@@ -28,6 +28,7 @@ const App = () => {
         <Skills />
         <Work />
         <Education />
+        <Certifications/>
         <Contact />
         <Footer />
       </div>
